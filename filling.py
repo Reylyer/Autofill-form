@@ -60,7 +60,7 @@ valuealt = {
 
 
 def get_entry_absen(siswa):
-    # Target POST kesini 
+    # Target POST -> form sekolah
     entryAbsen = {
         "entry.1404348575" : siswa.NIS,       #NIS
         "entry.1214830987" : siswa.nama,      #NAMA LENGKAP
@@ -70,7 +70,7 @@ def get_entry_absen(siswa):
     return entryAbsen
 
 def get_entry_test(siswa):
-    # Target POST kesini 
+    # Target POST -> form rekayasa https://docs.google.com/forms/d/17-RHWJX8eBz9GZqLUTZzpdTfWzdao6EQnHSO2v1sU8Y/edit#responses
     entryAbsen = {
         "entry.204222402" : siswa.NIS,
         "entry.1906862676" : siswa.nama, 
