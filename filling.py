@@ -250,7 +250,7 @@ while (True):
     
     for i, hari in enumerate(["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu",]):
         if(today == i):
-            print(f"{hari}, {now})
+            print(f"{hari}, {now}")
             continue
     time.sleep(60)
     
