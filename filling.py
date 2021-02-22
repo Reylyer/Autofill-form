@@ -247,4 +247,7 @@ while (True):
     if (today in [0,1,2,3,4]):
         if(now == "06:01"):
             postEntry(muridIpa1Int, urlAbsenPagi)
+            
+    print(today + now)
+    time.sleep(60)
     
