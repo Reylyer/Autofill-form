@@ -247,7 +247,10 @@ while (True):
     if (today in [0,1,2,3,4]):
         if(now == "06:01"):
             postEntry(muridIpa1Int, urlAbsenPagi)
-            
-    print(today + now)
+    
+    for i, hari in enumerate(["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu",]):
+        if(today == i):
+            print(f"{hari}, {now})
+            continue
     time.sleep(60)
     
