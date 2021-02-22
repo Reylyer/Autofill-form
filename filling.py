@@ -27,6 +27,8 @@ urlAbsenBing = "https://docs.google.com/forms/d/e/1FAIpQLSdZtn4xHrbMFSgjnCqV17Pt
 
 urlAbsenPKWU = "https://docs.google.com/forms/d/e/1FAIpQLSfwQANMWD8rHbZ3LuA2lxQUZsjSA8mF0snsJQdoVG3XSnNe8A/formResponse"
 urlAbsenSejarah = "https://docs.google.com/forms/d/e/1FAIpQLSeBIiutnf4vuYJFC7OUU74JHC9FCtIzvmzgL853TD9PG_V47g/formResponse"
+urlAbsenMatjib = "https://docs.google.com/forms/d/e/1FAIpQLSd8la2MJ3Vn-q8Uppz1vEsUuF2jxn6OIG5HUlnqKk6atu0NlA/formResponse"
+
 
 urlAbsenBio = "https://docs.google.com/forms/d/e/1FAIpQLSdEKVydKLGcb6LAwIJQcZnKSnS3Ccc20gvZ1bdrB_8XLCQZqA/formResponse"
 urlAbsenPKN = "https://docs.google.com/forms/d/e/1FAIpQLSfsh_exyYg3g8654o7Tkfpz2VWSgMLy9KJp2SFIc5Hslpvp3g/formResponse"
@@ -205,8 +207,8 @@ while (True):
             postEntry(muridIpa1Int, urlAbsenPKWU)
         elif(now == "09:01"):
             postEntry(muridIpa1Int, urlAbsenSejarah)
-        # elif(now == "10:01"):
-        #     postEntry(muridIpa1Int, urlAbsenMatjib)
+        elif(now == "10:01"):
+            postEntry(muridIpa1Int, urlAbsenMatjib)
         
     elif(today == 1): #selasa
         if(now == "07:01"):
@@ -246,58 +248,3 @@ while (True):
         if(now == "06:01"):
             postEntry(muridIpa1Int, urlAbsenPagi)
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
