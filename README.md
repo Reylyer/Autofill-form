@@ -1,7 +1,9 @@
 # Autofill-form
 bot buat isi absen 
 
-created by : Anak sebelas yang malas absen tiap mapel dan malas bangun pagi.
+created by : Anak seman sebelas bekas yang malas absen tiap mapel dan malas bangun pagi.
+
+
 dibuat pada masa pandemi copid tahun 2021
 
 # How to use
