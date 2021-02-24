@@ -3,6 +3,7 @@ import datetime
 import sys
 import os
 import time
+import random
 
 
 
@@ -99,8 +100,10 @@ def postEntry(#entryStr,
             entrytest = get_entry_test(x)
             entry = get_entry_absen(x)
             
+            random.shuffle(entry)
+            
             requests.post(urlTest, entrytest)
-            # requests.post(url, entry)
+            requests.post(url, entry)
             print("form submitted : " + x.nama)
         except:
             print("error")
@@ -201,51 +204,51 @@ while (True):
     now = datetime.datetime.now().time().strftime("%H:%M")
     
     if (today == 0): #senin
-        if(now == "07:01"):
+        if(now == "07:12"):
             postEntry(muridIpa1Int, urlAbsenBing)
-        elif(now == "08:01"):
+        elif(now == "08:11"):
             postEntry(muridIpa1Int, urlAbsenPKWU)
-        elif(now == "09:01"):
+        elif(now == "09:04"):
             postEntry(muridIpa1Int, urlAbsenSejarah)
-        elif(now == "10:01"):
+        elif(now == "10:05"):
             postEntry(muridIpa1Int, urlAbsenMatjib)
         
     elif(today == 1): #selasa
-        if(now == "07:01"):
+        if(now == "07:08"):
             postEntry(muridIpa1Int, urlAbsenBio)
-        elif(now == "09:01"):
+        elif(now == "09:07"):
             postEntry(muridIpa1Int, urlAbsenPKN)
-        elif(now == "10:01"):
+        elif(now == "10:12"):
             postEntry(muridIpa1Int, urlAbsenBjep)
             
     elif(today == 2): #rabu
-        if(now == "07:01"):
+        if(now == "07:06"):
             postEntry(muridIpa1Int, urlAbsenFisika)
-        elif(now == "09:01"):
+        elif(now == "09:13"):
             postEntry(muridIpa1Int, urlAbsenMatmin)
-        elif(now == "11:01"):
+        elif(now == "11:09"):
             postEntry(muridIpa1Int, urlAbsenBsun)
             
     elif(today == 3): #kamis
-        if(now == "07:01"):
+        if(now == "07:15"):
             postEntry(muridIpa1Int, urlAbsenBindo)
-        elif(now == "09:01"):
+        elif(now == "09:12"):
             postEntry(muridIpa1Int, urlAbsenPJOK)
-        elif(now == "11:01"):
+        elif(now == "11:08"):
             postEntry(muridIpa1Int, urlAbsenPAI)
             
     elif(today == 4): #jumat
-        if(now == "07:01"):
+        if(now == "07:11"):
             postEntry(muridIpa1Int, urlTest)
             #kimia ga ada link
-        elif(now == "09:01"):
+        elif(now == "09:04"):
             postEntry(muridIpa1Int, urlAbsenSBK)
-        elif(now == "10:01"):
+        elif(now == "10:07"):
             postEntry(muridIpa1Int, urlTest)
             #BK ga da link absen
             
     if (today in [0,1,2,3,4]):
-        if(now == "06:01"):
+        if(now == "06:47"):
             postEntry(muridIpa1Int, urlAbsenPagi)
     
     for i, hari in enumerate(["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu",]):
