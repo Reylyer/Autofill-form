@@ -7,12 +7,14 @@ created by : Anak seman seblas bekas yang malas absen tiap mapel dan malas bangu
 dibuat pada masa pandemi copid tahun 2021
 
 
-# How to use
+# How to use bot
 ```
 git clone https://github.com/Reylyer/Autofill-form.git
 cd Autofill-form
 python filling.py
 ```
+
+# Bagaimana cara menambahkan kamu dalam bot auto absen
 
 
 # help.
