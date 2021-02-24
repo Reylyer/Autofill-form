@@ -83,6 +83,10 @@ def postEntry(entryInt, url, urlTest ="https://docs.google.com/forms/d/e/1FAIpQL
             print("error")
 
 
+            
+            
+            
+            
 muridIpa1Int = [
     #Siswa(181910198, "ALFIAN SALIM", "XII IPA 1"),
     #Siswa(181910123, "ALIFA NADYA SALSABILA", "XII IPA 1"),
