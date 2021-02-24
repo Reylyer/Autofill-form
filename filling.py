@@ -50,7 +50,6 @@ urlAbsenPMBing ="https://docs.google.com/forms/d/e/1FAIpQLScaJfYXDlV9ObjIfkcCseo
 
 
 
-
 def get_entry_absen(siswa):
     # Target POST -> form sekolah
     entryAbsen = {
@@ -70,15 +69,12 @@ def get_entry_test(siswa):
     }
     return entryAbsen
 
-def postEntry(#entryStr, 
-              entryInt, url, urlTest ="https://docs.google.com/forms/d/e/1FAIpQLSd3JM9wXietuo5L9X37qIFjotqKaH27bXt5gg6hKCzO2EPC5g/formResponse"):
-
+def postEntry(entryInt, url, urlTest ="https://docs.google.com/forms/d/e/1FAIpQLSd3JM9wXietuo5L9X37qIFjotqKaH27bXt5gg6hKCzO2EPC5g/formResponse"):
+    random.shuffle(entryInt)
     for x in entryInt:
         try:
             entrytest = get_entry_test(x)
             entry = get_entry_absen(x)
-            
-            random.shuffle(entry)
             
             requests.post(urlTest, entrytest)
             requests.post(url, entry)
@@ -129,8 +125,6 @@ muridIpa1Int = [
     #Siswa(181910233, "YAHYA AYAS FIRDAUSI", "XII IPA 1"),
     #Siswa(181910079, "YORIN WAHYUNI ANITASYAH", "XII IPA 1"),
 ]
-
-
 
 while (True):
     today = datetime.datetime.today().weekday()
