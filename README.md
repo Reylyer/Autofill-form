@@ -8,6 +8,9 @@ dibuat pada masa pandemi copid tahun 2021
 
 note : setelah lu commit changes botnya ga langsung aktif ngabsenin lu, gw perlu launch bot dari skrip yang baru lu edit dulu. biasanya gw relaunch skripnya malem kalau ada yang ngedit. tapi gw pasti relaunch tiap hari minggu.
 
+note+ : gw jalanin skripnya dari hape jadinya kalo lu menggunakan jasa bot ini, lu siap menanggung konsekuensi jika bot nya ga aktif karena mati ataupun kuota habis.
+
+
 
 donate me : https://saweria.co/Reylyer
 
