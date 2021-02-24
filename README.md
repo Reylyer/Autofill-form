@@ -15,7 +15,20 @@ python filling.py
 ```
 
 # Bagaimana cara menambahkan kamu dalam bot auto absen
+
+1. Di repository ini tekan filling.py
 ![test](https://github.com/Reylyer/Autofill-form/blob/main/resource/01.png)
 
+2. Kemudian edit dengan memilih lambang pensil di sebelah kanan atas
+![test](https://github.com/Reylyer/Autofill-form/blob/main/resource/02.png)
+
+3. Scroll ke bawah samapi ke line 90
+![test](https://github.com/Reylyer/Autofill-form/blob/main/resource/03.png)
+
+4. Cari nama mu dari line 91 - line 130 lalu hapus # di belakang Siswa
+![test](https://github.com/Reylyer/Autofill-form/blob/main/resource/04.png)
+
+5. Scroll ke paling bawah, tambah kan perubahan "add {namamu}. kemudian commit changes
+![test](https://github.com/Reylyer/Autofill-form/blob/main/resource/05.png)
 
 # help.
