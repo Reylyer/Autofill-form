@@ -15,6 +15,7 @@ python filling.py
 ```
 
 # Bagaimana cara menambahkan kamu dalam bot auto absen
+![test](https://github.com/Reylyer/Autofill-form/blob/main/resource/01.png)
 
 
 # help.
