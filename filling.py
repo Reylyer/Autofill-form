@@ -202,6 +202,7 @@ muridIpa1Int = [
 while (True):
     today = datetime.datetime.today().weekday()
     now = datetime.datetime.now().time().strftime("%H:%M")
+    date  = datetime.date.today()
     
     if (today == 0): #senin
         if(now == "07:12"):
@@ -253,7 +254,7 @@ while (True):
     
     for i, hari in enumerate(["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu",]):
         if(today == i):
-            print(f"{hari}, {now}")
+            print(f"{date} {hari}, {now}")
             continue
     time.sleep(60)
     
