@@ -15,13 +15,6 @@ note+ : gw jalanin skripnya dari hape jadinya kalo lu menggunakan jasa bot ini, 
 donate me : https://saweria.co/Reylyer
 
 
-# How to use bot
-```
-git clone https://github.com/Reylyer/Autofill-form.git
-cd Autofill-form
-python filling.py
-```
-
 # Bagaimana cara menambahkan kamu dalam bot auto absen
 
 #### 1. Di repository ini tekan filling.py
