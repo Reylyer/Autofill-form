@@ -29,11 +29,11 @@ donate me : https://saweria.co/Reylyer
 ![test](https://github.com/Reylyer/Autofill-form/blob/main/resource/03.png)
 
 
-#### 4. Cari nama mu dari line 91 - line 130 lalu hapus # di belakang Siswa
+#### 4. Cari nama mu dari line 91 - line 130 lalu hapus # di belakang Siswa, kemuadian propose changes
 ![test](https://github.com/Reylyer/Autofill-form/blob/main/resource/04.jpg)
 
 
-#### 5. Scroll ke paling bawah, tambahkan "add {namamu}" di extended desciption . kemudian commit changes
+#### 5. Create pull request
 ![test](https://github.com/Reylyer/Autofill-form/blob/main/resource/05.jpg)
 
 
