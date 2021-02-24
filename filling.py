@@ -51,17 +51,6 @@ urlAbsenPMBing ="https://docs.google.com/forms/d/e/1FAIpQLScaJfYXDlV9ObjIfkcCseo
 
 
 
-
-
-
-valuealt = {
-    "entry.204222402" : "lelelelel",
-    "entry.1906862676" : "nnnnnnn",
-    "entry.290170554" : "XII IPA 3",
-    "entry.165880829" : "HADIR"
-}
-
-
 def get_entry_absen(siswa):
     # Target POST -> form sekolah
     entryAbsen = {
@@ -73,7 +62,6 @@ def get_entry_absen(siswa):
     return entryAbsen
 
 def get_entry_test(siswa):
-    # Target POST -> form rekayasa https://docs.google.com/forms/d/17-RHWJX8eBz9GZqLUTZzpdTfWzdao6EQnHSO2v1sU8Y/edit#responses
     entryAbsen = {
         "entry.204222402" : siswa.NIS,
         "entry.1906862676" : siswa.nama, 
@@ -84,16 +72,6 @@ def get_entry_test(siswa):
 
 def postEntry(#entryStr, 
               entryInt, url, urlTest ="https://docs.google.com/forms/d/e/1FAIpQLSd3JM9wXietuo5L9X37qIFjotqKaH27bXt5gg6hKCzO2EPC5g/formResponse"):
-    # for x in entryStr:
-    #     try:
-    #         entrytest = get_entry_test(x)
-    #         entry = get_entry_absen(x)
-            
-    #         requests.post(urlTest, entrytest)
-    #         # requests.post(url, entry)
-    #         print("form submitted : " + x.nama)
-    #     except:
-    #         print("error")
 
     for x in entryInt:
         try:
@@ -107,51 +85,6 @@ def postEntry(#entryStr,
             print("form submitted : " + x.nama)
         except:
             print("error")
-
-
-muridIpa1Str = [
-    Siswa("181910198", "ALFIAN SALIM", "XII IPA 1"),
-    Siswa("181910123", "ALIFA NADYA SALSABILA", "XII IPA 1"),
-    Siswa("181910206", "ANNISA SAYYIDINA RAHMA", "XII IPA 1"),
-    Siswa("181910207", "ANWAR SAID PINTRANDHITA", "XII IPA 1"),
-    Siswa("181910086", "ARALI TYASNING PRASTITA", "XII IPA 1"),
-    Siswa("181910208", "ARDILAH", "XII IPA 1"),
-    Siswa("181910126", "ARYANTI KHARIDAH MUMTAZ", "XII IPA 1"),
-    Siswa("181910045", "ASTRI YUNITA NUR'AENI", "XII IPA 1"),
-    Siswa("181910047", "BISMA ARYA URIP PRAMUDITHA", "XII IPA 1"),
-    Siswa("181910163", "CHRISTINA RAISSA DONGORAN", "XII IPA 1"),
-    Siswa("181910048", "CINTA RABBAINA AL-FITRI", "XII IPA 1"),
-    Siswa("181910214", "DEA PUSPITASARI", "XII IPA 1"),
-    Siswa("181910050", "DEWI MURTI", "XII IPA 1"),
-    Siswa("181910216", "ERIDIA SURYADINATA", "XII IPA 1"),
-    Siswa("181910053", "EZRA TRIDARA", "XII IPA 1"),
-    Siswa("181910054", "FADHIEL HAYKAL NUN IFTIKHAR", "XII IPA 1"),
-    Siswa("181910167", "FAUZAN TARRICO INDRAPURI RUCHIYAT", "XII IPA 1"),
-    Siswa("181910090", "FITRIA MOZA PARAMITA", "XII IPA 1"),
-    Siswa("181910168", "GIVANDRA HAIKAL ADJIE", "XII IPA 1"),
-    Siswa("181910058", "HANI MUJAHIDAH", "XII IPA 1"),
-    Siswa("181910059", "HANIFAH MUTHMAINNAH", "XII IPA 1"),
-    Siswa("181910170", "HANNA APRILIANA ARIFIN", "XII IPA 1"),
-    Siswa("181910410", "HANNI APRILIANI ARIFIN", "XII IPA 1"),
-    Siswa("181910017", "HASNA ROFIFAH", "XII IPA 1"),
-    Siswa("181910220", "HAUZAN ARIQ BAKRI", "XII IPA 1"),
-    Siswa("181910172", "HIDAYAT", "XII IPA 1"),
-    Siswa("181910135", "I GUSTI AGUNG AYU BINTANG PUTRI MAHARANI", "XII IPA 1"),
-    Siswa("181910061", "IDELIA ELVIKA UTOMO", "XII IPA 1"),
-    Siswa("181910173", "KEISYARIQ RAMATHA ATSIL", "XII IPA 1"),
-    Siswa("181910178", "MUHAMMAD DAULAH IZZATHURRAHMAN", "XII IPA 1"),
-    Siswa("181910176", "MUHAMMAD RIFQI CIKAL RESWARA", "XII IPA 1"),
-    Siswa("181910224", "NABILA SALMA NAJWAGITA WIDYANDINI SUNARDI", "XII IPA 1"),
-    Siswa("181910100", "NAUFAL BAGHIZ MURFID", "XII IPA 1"),
-    Siswa("181910185", "RAFIF JAHFAL AL FARIZ", "XII IPA 1"),
-    Siswa("181910147", "RISKA AZIJAH", "XII IPA 1"),
-    Siswa("181910108", "ROSSI AMALIA", "XII IPA 1"),
-    Siswa("181910077", "SARAH ASHIRA TSAQIBAH", "XII IPA 1"),
-    Siswa("181910115", "WIDYA HANA SUNARYA", "XII IPA 1"),
-    Siswa("181910233", "YAHYA AYAS FIRDAUSI", "XII IPA 1"),
-    Siswa("181910079", "YORIN WAHYUNI ANITASYAH", "XII IPA 1"),
-]
-
 
 
 muridIpa1Int = [
