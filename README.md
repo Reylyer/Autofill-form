@@ -21,7 +21,7 @@ donate me : https://saweria.co/Reylyer
 ![test](https://github.com/Reylyer/Autofill-form/blob/main/resource/01.jpg)
 
 
-#### 2. Kemudian edit dengan memilih lambang pensil di sebelah kanan atas
+#### 2. Kemudian edit dengan memilih lambang pensil di sebelah kanan atas. Pastikan kamu sudah memiliki akun github yang terverifikasi
 ![test](https://github.com/Reylyer/Autofill-form/blob/main/resource/02.jpg)
 
 
