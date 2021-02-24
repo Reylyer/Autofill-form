@@ -1,10 +1,15 @@
 # Autofill-form
-bot buat isi absen 
+bot buat isi absen: absen pagi dan absen pelajaran
 
 created by : Anak seman seblas bekas yang malas absen tiap mapel dan malas bangun pagi.
 
 
 dibuat pada masa pandemi copid tahun 2021
+
+note : setelah lu commit changes botnya ga langsung aktif ngabsenin lu, gw perlu launch bot dari skrip yang baru lu edit dulu. biasanya gw relaunch skripnya malem kalau ada yang ngedit. tapi gw pasti relaunch tiap hari minggu.
+
+
+donate me : https://saweria.co/Reylyer
 
 
 # How to use bot
