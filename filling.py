@@ -46,9 +46,9 @@ urlAbsenPAI = "https://docs.google.com/forms/d/e/1FAIpQLSdK4RPrwDD5nem7nhx3kSduq
 urlAbsenSBK = "https://docs.google.com/forms/d/e/1FAIpQLSdTJ6o-0nl88atYVkRkVjPiJdZL1awsfAVudQQtP7IXXZDQDg/formResponse"
 
 
-urlAbsenPMBing ="https://docs.google.com/forms/d/e/1FAIpQLScaJfYXDlV9ObjIfkcCseozJ9M6ULSBQfGHM2SsEHrNDkl1BQ/viewform"
-
-
+urlAbsenPMBing = "https://docs.google.com/forms/d/e/1FAIpQLScaJfYXDlV9ObjIfkcCseozJ9M6ULSBQfGHM2SsEHrNDkl1BQ/formResponse"
+urlAbsenPMBio = "https://docs.google.com/forms/d/e/1FAIpQLSfDAgCTGmfeqWuCVvJbRdcAeX0FlGVAcSAvicnwAyfxeSoxNA/formResponse"
+urlAbsenPMKimia = "https://docs.google.com/forms/d/e/1FAIpQLSffyM7u4W_P73euaEltSIc4SZgQwDG-GLi7TF0JT3PaFi11UQ/formResponse"
 
 def get_entry_absen(siswa):
     # Target POST -> form sekolah
