@@ -6,7 +6,8 @@ created by : Anak seman seblas bekas yang malas absen tiap mapel dan malas bangu
 
 dibuat pada masa pandemi copid tahun 2021
 
-note : setelah lu commit changes botnya ga langsung aktif ngabsenin lu, gw perlu launch bot dari skrip yang baru lu edit dulu. biasanya gw relaunch skripnya malem kalau ada yang ngedit. tapi gw pasti relaunch tiap hari minggu.
+note : setelah propose changes, tunggu gw merge. Setelah merge bot langsung gw relaunch
+
 
 note+ : gw jalanin skripnya dari hape jadinya kalo lu menggunakan jasa bot ini, lu siap menanggung konsekuensi jika bot nya ga aktif karena mati ataupun kuota habis.
 
