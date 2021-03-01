@@ -1,5 +1,5 @@
 # Autofill-form
-bot buat isi absen: absen pagi dan absen pelajaran
+bot buat isi absen: absen pagi dan absen pelajaran(PM coming soon...)
 
 created by : Anak seman seblas bekas yang malas absen tiap mapel dan malas bangun pagi.
 
