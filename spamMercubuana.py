@@ -41,6 +41,20 @@ def get_entry():
     }
     return entryAbsen
 
-entry = get_entry()
+def get_entry_telkom():
+    # Target POST -> form sekolah
+    entryAbsen = {
+        "emailAddress": "suzuicross@gmail.com",
+        "entry1706401764" : "Biliiiii",
+        "entry.1852418755"  : "SMAN 69 Bekasi",
+        "entry.2129500625"  : "12-IPA-4",
+        "entry.970982036"  : "08969420690",
+    
+    }
+    return entryAbsen
 
-requests.post("https://docs.google.com/forms/d/e/1FAIpQLSdGdsCYcaOIz1xAGqyM_ELr97IeHGwNfoc3FTKnDPWxx0Mblw/formResponse", entry)
+
+entry = get_entry_telkom()
+
+# requests.post("https://docs.google.com/forms/d/e/1FAIpQLSdGdsCYcaOIz1xAGqyM_ELr97IeHGwNfoc3FTKnDPWxx0Mblw/formResponse", entry)
+requests.post("https://docs.google.com/forms/d/e/1FAIpQLSfz_NOOSqia2rDZLYkaej2H0Xy7GW7hXZb4mAJeI2Wy-x3Iaw/formResponse", entry)

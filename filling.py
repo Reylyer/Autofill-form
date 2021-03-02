@@ -84,7 +84,48 @@ def postEntry(entryInt, url, urlTest ="https://docs.google.com/forms/d/e/1FAIpQL
 
 
             
-            
+muridIpa1str = [
+    #Siswa(181910198, "ALFIAN SALIM", "XII IPA 1"),
+    #Siswa(181910123, "ALIFA NADYA SALSABILA", "XII IPA 1"),
+    #Siswa(181910206, "ANNISA SAYYIDINA RAHMA", "XII IPA 1"),
+    #Siswa(181910207, "ANWAR SAID PINTRANDHITA", "XII IPA 1"),
+    #Siswa(181910086, "ARALI TYASNING PRASTITA", "XII IPA 1"),
+    #Siswa(181910208, "ARDILAH", "XII IPA 1"),
+    #Siswa(181910126, "ARYANTI KHARIDAH MUMTAZ", "XII IPA 1"),
+    #Siswa(181910045, "ASTRI YUNITA NUR'AENI", "XII IPA 1"),
+    #Siswa(181910047, "BISMA ARYA URIP PRAMUDITHA", "XII IPA 1"),
+    #Siswa(181910163, "CHRISTINA RAISSA DONGORAN", "XII IPA 1"),
+    #Siswa(181910048, "CINTA RABBAINA AL-FITRI", "XII IPA 1"),
+    #Siswa(181910214, "DEA PUSPITASARI", "XII IPA 1"),
+    #Siswa(181910050, "DEWI MURTI", "XII IPA 1"),
+    #Siswa(181910216, "ERIDIA SURYADINATA", "XII IPA 1"),
+    #Siswa(181910053, "EZRA TRIDARA", "XII IPA 1"),
+    #Siswa(181910054, "FADHIEL HAYKAL NUN IFTIKHAR", "XII IPA 1"),
+    #Siswa(181910167, "FAUZAN TARRICO INDRAPURI RUCHIYAT", "XII IPA 1"),
+    #Siswa(181910090, "FITRIA MOZA PARAMITA", "XII IPA 1"),
+    Siswa("181910168", "GIVANDRA HAIKAL ADJIE", "XII IPA 1"),
+    #Siswa(181910058, "HANI MUJAHIDAH", "XII IPA 1"),
+    #Siswa(181910059, "HANIFAH MUTHMAINNAH", "XII IPA 1"),
+    #Siswa(181910170, "HANNA APRILIANA ARIFIN", "XII IPA 1"),
+    #Siswa(181910410, "HANNI APRILIANI ARIFIN", "XII IPA 1"),
+    #Siswa(181910017, "HASNA ROFIFAH", "XII IPA 1"),
+    #Siswa(181910220, "HAUZAN ARIQ BAKRI", "XII IPA 1"),
+    Siswa("181910172", "HIDAYAT", "XII IPA 1"),
+    #Siswa(181910135, "I GUSTI AGUNG AYU BINTANG PUTRI MAHARANI", "XII IPA 1"),
+    #Siswa(181910061, "IDELIA ELVIKA UTOMO", "XII IPA 1"),
+    #Siswa(181910173, "KEISYARIQ RAMATHA ATSIL", "XII IPA 1"),
+    #Siswa(181910178, "MUHAMMAD DAULAH IZZATHURRAHMAN", "XII IPA 1"),
+    #Siswa(181910176, "MUHAMMAD RIFQI CIKAL RESWARA", "XII IPA 1"),
+    #Siswa(181910224, "NABILA SALMA NAJWAGITA WIDYANDINI SUNARDI", "XII IPA 1"),
+    #Siswa(181910100, "NAUFAL BAGHIZ MURFID", "XII IPA 1"),
+    #Siswa(181910185, "RAFIF JAHFAL AL FARIZ", "XII IPA 1"),
+    #Siswa(181910147, "RISKA AZIJAH", "XII IPA 1"),
+    #Siswa(181910108, "ROSSI AMALIA", "XII IPA 1"),
+    #Siswa(181910077, "SARAH ASHIRA TSAQIBAH", "XII IPA 1"),
+    #Siswa(181910115, "WIDYA HANA SUNARYA", "XII IPA 1"),
+    #Siswa(181910233, "YAHYA AYAS FIRDAUSI", "XII IPA 1"),
+    #Siswa(181910079, "YORIN WAHYUNI ANITASYAH", "XII IPA 1"),
+]     
             
             
 muridIpa1Int = [
@@ -138,50 +179,67 @@ while (True):
     if (today == 0): #senin
         if(now == "07:01"):
             postEntry(muridIpa1Int, urlAbsenBing)
+            postEntry(muridIpa1str, urlAbsenBing)
         elif(now == "08:02"):
             postEntry(muridIpa1Int, urlAbsenPKWU)
+            postEntry(muridIpa1str, urlAbsenPKWU)
         elif(now == "09:01"):
             postEntry(muridIpa1Int, urlAbsenSejarah)
+            postEntry(muridIpa1str, urlAbsenSejarah)
         elif(now == "10:02"):
             postEntry(muridIpa1Int, urlAbsenMatjib)
+            postEntry(muridIpa1str, urlAbsenMatjib)
         
     elif(today == 1): #selasa
         if(now == "07:01"):
             postEntry(muridIpa1Int, urlAbsenBio)
+            postEntry(muridIpa1str, urlAbsenBio)
         elif(now == "09:02"):
             postEntry(muridIpa1Int, urlAbsenPKN)
+            postEntry(muridIpa1str, urlAbsenPKN)
         elif(now == "10:01"):
             postEntry(muridIpa1Int, urlAbsenBjep)
+            postEntry(muridIpa1str, urlAbsenBjep)
             
     elif(today == 2): #rabu
         if(now == "07:02"):
             postEntry(muridIpa1Int, urlAbsenFisika)
+            postEntry(muridIpa1str, urlAbsenFisika)
         elif(now == "09:01"):
             postEntry(muridIpa1Int, urlAbsenMatmin)
+            postEntry(muridIpa1str, urlAbsenMatmin)
         elif(now == "11:02"):
             postEntry(muridIpa1Int, urlAbsenBsun)
+            postEntry(muridIpa1str, urlAbsenBsun)
             
     elif(today == 3): #kamis
         if(now == "07:02"):
             postEntry(muridIpa1Int, urlAbsenBindo)
+            postEntry(muridIpa1str, urlAbsenBindo)
         elif(now == "09:01"):
             postEntry(muridIpa1Int, urlAbsenPJOK)
+            postEntry(muridIpa1str, urlAbsenPJOK)
         elif(now == "11:02"):
             postEntry(muridIpa1Int, urlAbsenPAI)
+            postEntry(muridIpa1str, urlAbsenPAI)
             
     elif(today == 4): #jumat
         if(now == "07:01"):
             postEntry(muridIpa1Int, urlTest)
+            postEntry(muridIpa1str, urlTest)
             #kimia ga ada link
         elif(now == "09:02"):
             postEntry(muridIpa1Int, urlAbsenSBK)
+            postEntry(muridIpa1str, urlAbsenSBK)
         elif(now == "10:01"):
             postEntry(muridIpa1Int, urlTest)
+            postEntry(muridIpa1str, urlTest)
             #BK ga da link absen
             
     if (today in [0,1,2,3,4]):
         if(now == "06:31"):
             postEntry(muridIpa1Int, urlAbsenPagi)
+            postEntry(muridIpa1str, urlAbsenPagi)
     
     for i, hari in enumerate(["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu",]):
         if(today == i):
